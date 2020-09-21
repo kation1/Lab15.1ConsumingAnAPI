@@ -1,0 +1,13 @@
+﻿@model Deck
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@Model.deck_id
+@Model.success
+@Model.shuffled
+@Model.remaining
+
+<a href="/DrawHand/ShowHand?deck=@Model.deck_id">Show Hand</a>

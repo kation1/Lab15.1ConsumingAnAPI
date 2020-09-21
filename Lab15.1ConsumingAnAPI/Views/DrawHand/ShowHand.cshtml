@@ -1,0 +1,14 @@
+﻿@model Hand
+@{
+    ViewData["Title"] = "ShowHand";
+}
+
+<h1>ShowHand</h1>
+
+@foreach (Card card in Model)
+{
+    @card.value
+    @card.suit
+    @card.suit
+    @card.code
+}
