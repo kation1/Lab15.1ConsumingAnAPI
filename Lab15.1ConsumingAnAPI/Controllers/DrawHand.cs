@@ -32,7 +32,7 @@ namespace Lab15._1ConsumingAnAPI.Controllers
             int cardCount = 5;
 
             var response = await client.GetAsync($"/api/deck/{deck_id}/draw/?count=5");
-            Deck handCards = await response.Content.ReadAsAsync<Deck>();
+            Hand handCards = await response.Content.ReadAsAsync<Hand>();
 
             return View(handCards);
     
