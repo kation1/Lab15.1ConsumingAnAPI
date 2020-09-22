@@ -2,7 +2,6 @@ C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\bin\Debug\netcore
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\bin\Debug\netcoreapp3.1\appsettings.json
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\bin\Debug\netcoreapp3.1\Lab15.1ConsumingAnAPI.exe
-C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Lab15.1ConsumingAnAPI.csprojAssemblyReference.cache
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Lab15.1ConsumingAnAPI.AssemblyInfoInputs.cache
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Lab15.1ConsumingAnAPI.AssemblyInfo.cs
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Lab15.1ConsumingAnAPI.RazorAssemblyInfo.cache
@@ -112,3 +111,4 @@ C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcore
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Lab15.1ConsumingAnAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Razor\Views\DrawHand\Index.cshtml.g.cs
 C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Razor\Views\DrawHand\ShowHand.cshtml.g.cs
+C:\devbuild\Week13\Lab15.1ConsumingAnAPI\Lab15.1ConsumingAnAPI\obj\Debug\netcoreapp3.1\Lab15.1ConsumingAnAPI.csprojAssemblyReference.cache

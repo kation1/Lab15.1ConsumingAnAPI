@@ -1,14 +1,23 @@
-﻿@model Hand
+﻿@model Deck
 @{
     ViewData["Title"] = "ShowHand";
 }
 
 <h1>ShowHand</h1>
+<table>
+    <tr>
+        @foreach (Card card in Model.cards)
+        {
+            <th>
+                <img src="@card.image" />
 
-@foreach (Card card in Model)
-{
-    @card.value
-    @card.suit
-    @card.suit
-    @card.code
-}
+                @card.value
+                @card.suit
+                @card.code
+
+
+            </th>
+        }
+    </tr>
+
+</table>

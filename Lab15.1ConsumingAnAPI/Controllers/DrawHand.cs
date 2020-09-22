@@ -13,9 +13,9 @@ namespace Lab15._1ConsumingAnAPI.Controllers
         public async Task<IActionResult> Index()
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("https://deckofcardsapi.com/api/");
+            client.BaseAddress = new Uri("https://deckofcardsapi.com");
 
-            var response = await client.GetAsync("deck/new/shuffle/?deck_count=1");
+            var response = await client.GetAsync("/api/deck/new/shuffle/?deck_count=1");
             Deck info = await response.Content.ReadAsAsync<Deck>();
 
 
@@ -24,26 +24,18 @@ namespace Lab15._1ConsumingAnAPI.Controllers
         }
 
 
-        public async Task<IActionResult> ShowHand(Deck deck)
+        public async Task<IActionResult> ShowHand(string deck_id)
         {
            
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("https://deckofcardsapi.com/api/");
+            client.BaseAddress = new Uri("https://deckofcardsapi.com");
             int cardCount = 5;
 
-            var response = await client.GetAsync($"deck/{deck.deck_id}/draw/?count={cardCount}");
-            Hand playingHand = new Hand();
-            for (int i = 1; i == cardCount; i++)
-            {
+            var response = await client.GetAsync($"/api/deck/{deck_id}/draw/?count=5");
+            Deck handCards = await response.Content.ReadAsAsync<Deck>();
 
-                Card drawnCard = await response.Content.ReadAsAsync<Card>();
-
-                playingHand.handCards.Add(drawnCard);
-            }
-
-
-
-            return View(playingHand);
+            return View(handCards);
+    
         }
         }
     }
